@@ -5,10 +5,10 @@ import hbLogo from "./hellobuild.png"
 
 const Logo = () => {
     return (
-        <div className="ma4 mt0">
-            <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
+        <div className="center ma4 mt0">
+            <Tilt className="Tilt" options={{ max : 25 }} style={{ height: 120, width: 120 }} >
                 <div className="Tilt-inner pa3"> 
-                    <img style={{paddingTop: "5px"}} src={hbLogo} alt="" /> 
+                    <img style={{paddingTop: "3px"}} src={hbLogo} alt="" /> 
                 </div>
             </Tilt> 
         </div>
